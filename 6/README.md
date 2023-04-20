@@ -120,6 +120,12 @@ hfhfhfhf
 ➜  orange git:(master)
 ```
 
+Pour push une branche créée en local sur GitHub :
+
+```bash
+git push -u origin <branch>
+```
+
 ## Commande `Git init --bare`
 
 - `git init --bare` : initialise un dépôt git sans dossier de travail
@@ -151,3 +157,7 @@ Si on aimerait retourner sur un `commit` perdu, on peut utiliser `git reflog` po
 Si on a créer une branche en local et qu'on aimerait désormais l'ajouter dans le remote (par exemple: github ou origin ou ...), on peut utiliser la commande `git push -set-upstream <remote> <branch>` avec `<remote>` qui est le nom du remote et `<branch>` qui est le nom de la branchee qu'on avait créé en local.
 
 La liste des remotes est disponible avec la commande `git remote -v`.
+
+```
+
+```
